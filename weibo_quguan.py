@@ -17,9 +17,9 @@ time.sleep(5)
 
 #登陆账号
 driver.find_element_by_id('loginname').clear()
-driver.find_element_by_id('loginname').send_keys('691849609@qq.com')
+driver.find_element_by_id('loginname').send_keys('******@qq.com')
 driver.find_element_by_css_selector('#pl_login_form > div > div:nth-child(3) > div.info_list.password > div > input').clear()
-driver.find_element_by_css_selector('#pl_login_form > div > div:nth-child(3) > div.info_list.password > div > input').send_keys('hxy12138')
+driver.find_element_by_css_selector('#pl_login_form > div > div:nth-child(3) > div.info_list.password > div > input').send_keys('******')
 driver.find_element_by_css_selector('a[tabindex="6"]').click()
 print('登陆账号成功')
 time.sleep(1)
