@@ -1,0 +1,1 @@
+https://testerhome.com/topics/5407   ===>>   'gbk' codec can't encode character '\U0001f44d' in position 20: illegal multibyte sequence
