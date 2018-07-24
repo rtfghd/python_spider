@@ -166,9 +166,4 @@ if __name__ == '__main__':
     company_urls = get_all_page()
     for company_url in company_urls:
         index = company_urls.index(company_url) + 1
-        # try:
         get_info(company_url)
-        # except Exception as e:
-        #     print(company_url)
-        #     print(e)
-        #     break
