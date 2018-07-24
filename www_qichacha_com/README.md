@@ -5,7 +5,7 @@
 
 ## 使用方法
 1. 更换cookie
-打开两个软件，在header部分将登陆后的最新cookie替换
+打开两个文件，在header部分将登陆后的最新cookie替换
 ```
 headers = {
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
